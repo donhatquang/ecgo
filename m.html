@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">-->
+<title>ECG0</title>
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="css/frame.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="css/nivo-slider.css" media="screen" type="text/css" />
+<script src="vendor/jquery/jquery-1.11.2.min.js"></script>
+<script src="vendor/plugins-compressed.js"></script>
+<script type="text/javascript" src="Js/jquery.dropdown.js"></script>
+<script src="js/theme-functions.js"></script>
+<style type="text/css">
+@font-face {
+	font-family: 'Open Sans';
+	src: url('Font/OpenSans-Regular.ttf');
+	src: local('Font/OpenSans-Regular'), url('Font/OpenSans-Regular.woff') format('woff'), url('Font/OpenSans-Regular.ttf') format('truetype'), url('Font/OpenSans-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'opensans-light';
+	src: url('Font/opensans-light.ttf');
+	src: local('Font/OpenSans-Regular'), url('Font/opensans-light.woff') format('woff'), url('Font/opensans-light.ttf') format('truetype'), url('Font/opensans-light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+</style>
+</head>
+<body>
+<section id="sec-head">
+  <div class="wrapper clearfix">
+    <div class="fl logo">
+      <h1><a href="#"></a></h1>
+    </div>
+    <div class="fr log">
+      <div class="navbar-collapse collapse" id="navbar">
+        <ul class="nav navbar-nav">
+          <li class="dropdown"> <a aria-expanded="true" aria-haspopup="true" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Đăng nhập</a>
+            <div class="dropdown-menu">
+              <div class="form-group">
+                <input type="text" class="form-control required" name="senderName" placeholder="Tên đăng nhập" id="name" aria-required="true">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control required" name="senderName" placeholder="Mật khẩu" id="pass" aria-required="true">
+              </div>
+              <div class="form-group">
+                <label>
+                  <input type="radio"/>
+                  Ghi nhớ đăng nhập</label>
+              </div>
+              <a href="#" class="new-btn m-b-10" data-animation="bounceInRight" data-animation-delay="100">Đăng nhập</a> </div>
+          </li>
+          <li class="dropdown"> <a aria-expanded="true" aria-haspopup="true" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Đăng ký</a>
+            <div class="dropdown-menu">
+              <div class="form-group">
+                <input type="text" class="form-control required" name="senderName" placeholder="Họ tên" id="name" aria-required="true">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control required" name="senderName" placeholder="Email" id="name" aria-required="true">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control required" name="senderName" placeholder="Điện thoại" id="name" aria-required="true">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control required" name="senderName" placeholder="Mật khẩu" id="pass" aria-required="true">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control required" name="senderName" placeholder="Nhập lại mật khẩu" id="pass" aria-required="true">
+              </div>
+              <div class="form-group">
+                <label>
+                  <input type="radio"/>
+                  Tài khoản bác sỹ</label>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control required" name="senderName" placeholder="Điện thoại" id="name" aria-required="true" style="width:50%;display:inline-block">
+                <span style="display:inline-block;margin-left:5px">Mã captcha</span> </div>
+              <a href="#"  class="new-btn m-b-10" data-animation="bounceInRight" data-animation-delay="100">Đăng ký</a> </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="sec-0">
+  <div class="wrapper clearfix">
+    <div class="fl sec-0-pad" style="">
+      <h1 class="h-title cl-1" data-animation="fadeInLeft" data-animation-delay="100">GIẢI PHÁP CHĂM SÓC SỨC KHỎE TIM</h1>
+      <p class="lead" style="text-align:justify" data-animation="fadeInLeft" data-animation-delay="300">Giải pháp chăm sóc sức khỏe thông minh gồm thiết bị đo điện tim đồ đơn kênh cá nhân và ứng dụng trên hệ điều hành Androi/ iOS dành cho người mắc bệnh tim mãn tính, người đang điều trị bệnh tim mạch cũng như người quan tâm đến sức khỏe trái tim mình</p>
+      <p class="txt_r" style="margin-top:100px"><a href="#" data-target="#myModal" data-toggle="modal"  class="new-btn m-b-10" data-animation="bounceInLeft" data-animation-delay="100">Xem Video</a> <a href="#" data-target="#buy" data-toggle="modal" class="new-btn m-b-10" data-animation="bounceInRight" data-animation-delay="100">Đặt hàng</a></p>
+    </div>
+    <div class="fr" style="width:300px;text-align:center"> <img src="images/ecg-1.png" alt="" width="240"> </div>
+  </div>
+</section>
+<section id="sec-1">
+  <div class="wrapper clearfix">
+    <div style="width:600px">
+      <h1 class="h-title cl-1">ECGO LÀ GÌ?</h1>
+      <p class="lead" style="text-align:justify">Trung bình trái tim chúng ta đập 100.000 nhịp mỗi ngày. Mỗi nhịp đập của tim được kích hoạt bởi một xung điện tạo ra từ các tế bào đặc biệt của trái tim. Điện tâm đồ (ECG hoặc EKG) là thiết bị ghi lại các tín hiệu điện khi chúng đi qua tim. Bác sỹ có thể sử dụng điện tâm đồ để phát hiện vấn đè về tim mạch và lên phương án điều trị.<br/>
+        <br/>
+        ECGo là thiết bị đo điện tâm đồ đơn kênh cá nhân giúp bạn đo thông tin, theo dõi, chia sẻ các thông tin cho bác sỹ một cách dễ dàng nhất, tiện lợi nhất, mọi lúc, mọi nơi. ECGo giúp bạn chủ động theo dõi tình hình sức khoẻ trái tim của bạn để phòng chống và giảm thiểu mọi nguy cơ bệnh tật liên quan đến tim mạch, nhất là các cơn nhồi máu cơ tim. </p>
+    </div>
+  </div>
+</section>
+<section id="sec-2" >
+  <div class="wrapper clearfix">
+    <div style="width:500px;">
+      <h1 class="h-title cl-1">CHỈ 30 GIÂY ĐỂ ĐO ĐIỆN TÂM ĐỒ CHO BẠN</h1>
+      <p class="lead" style="text-align:justify; font-style: italic; "> ECGo cho phép bạn đo điện tâm đồ đơn kênh trong vòng 30s. Các thông tin điện tâm đồ thu được từ ECGo đã được chứng minh là chính xác và hiệu quả trong nghiên cứu lâm sàng và các thử nghiệm tại Bệnh viện Tim Hà Nội vào tháng 6/2015 trên 110 bệnh nhân khác nhau. </p>
+    </div>
+  </div>
+</section>
+<section id="sec-3">
+  <div class="wrapper clearfix">
+    <div style="width:750px">
+      <h1 class="h-title cl-1">THEO DÕI & CHIA SẺ<br/>
+        GIAO DIỆN THÂN THIỆN, GIÀU THÔNG TIN</h1>
+      <p class="lead"> Thông tin của tất cả các lần đo sẽ được lưu lại trên hệ thống, bao gồm các bản ghi điện tâm đồ, thông tin cảnh báo, lịch sử tư vấn của bác sỹ và kho kiến thức tim mạch. Bạn có thể theo dõi, truy cứu thông tin và chia sẻ cho bác sỹ bất cứ lúc nào bạn muốn.</p>
+    </div>
+  </div>
+</section>
+<section id="sec-4">
+  <div class="wrapper clearfix">
+    <div style="width:750px">
+      <h1 class="h-title">TRONG LÒNG BÀN TAY</h1>
+      <span class="lead" style="text-align:justify"> Với thiết kế nhỏ gọn trong lòng bàn tay và chỉ nhẹ chưa đến x gam, bạn có thể dễ dàng mang ECgo theo mình trong cuộc sống hàng ngày hay trong bất cứ hành trình nào mà bạn muốn. </span> </div>
+  </div>
+</section>
+<section id="sec-5">
+  <div class="wrapper clearfix">
+    <div class="m-b-40 text-center">
+      <h1 class="h-title">THÔNG SỐ THIẾT BỊ ECGO</h1>
+      <p><img src="images/app-1.png" class="img-responsive"/></p>
+    </div>
+  </div>
+</section>
+<section class="sec-6">
+  <div class="wrapper clearfix">
+    <div style="width:750px" >
+      <div class="" data-animation="fadeInUp" data-animation-delay="100">
+        <h1 class="h-title">HƯỚNG DẪN SỬ DỤNG</h1>
+        <span class="lead" style="text-align:justify"> 1. Tải ECGo từ chợ ứng dụng<br/>
+        2. Mở ứng dụng<br/>
+        3. Kết nối thiêt bị với điện thoại qua Bluetooth<br/>
+        4. Cầm thiết bị để đo theo cách 1 hoặc 2<br/>
+        5. Hệ thống phân tích kết quả đo<br/>
+        6. Chia sẻ kết quả đo cho bác sĩ để tư vấn và chẩn đoán bệnh<br/>
+        </span>
+        <p class="mgt35"><a href="#" class="down-android mgr"></a><a href="#" class="down-ios"></a></p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="sec-hd3">
+  <div class="wrapper">
+    <div> 
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist" data-animation="fadeInDown" data-animation-delay="100">
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Về ECGo</a></li>
+        <li role="profile"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">VỀ CÁCH SỬ DỤNG</a></li>
+        <li role="messages"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Về ECGo App</a></li>
+        <li role="settings"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">CÁC CÂU HỎI CHUYÊN SÂU</a></li>
+      </ul>
+      
+      <!-- Tab panes -->
+      <div class="tab-content" data-animation="fadeIn" data-animation-delay="100">
+        <div role="tabpanel" class="tab-pane active" id="home">
+          <div class="panel-group m-t-20" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">1. ECGo đo cái gì?</a> </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">- ECGo được dùng để ghi, lưu trữ và truyền điện tâm đồ một kênh. ECGo cũng được dùng để hiển thị lại các bản ghi và phát hiện ra các chứng rối loạn nhịp (nhịp nhanh, nhịp chậm, rối loạn nhịp) và nhịp bình thường (khi được quy định và dưới sự tư vấn của bác sỹ)<br/>
+                  <br/>
+                  - ECGo được sử dụng nhằm hỗ trợ cho các chuyên gia y tế, các cá nhân bị bệnh tim hoặc cá nhân nghi ngờ về sức khỏe. <br/>
+                  <br/>
+                  - ECGo cũng hiển thị nhịp đập mỗi phút (bpm). Người dùng có thể thấy chính xác về nhịp tim trung bình cũng như nhịp tim tức thời. Người dùng cũng có thể đăng nhập và theo dõi các triệu chứng, các hoạt động và các tư vấn của bác sỹ. Dữ liệu có thể được hiển thị trong ứng dụng ECGo App hoặc đăng nhập tại website: www.ecgo.life </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">2. Mức độ chính xác của ECGo?</a> </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">Trong các nghiên cứu lâm sàng và các thử nghiệm tại Bệnh viện Tim Hà Nội, ECGo đã được chứng minh là chính xác và hiệu quả. Các bản ghi ECGo đều thể hiện sự tương đương với các máy điện tâm đồ khác.<br/>
+                  Các thử nghiệm lâm sàng tại Bệnh viện Tim Hà Nội vào tháng 05 và tháng 06 năm 2015 trên 110 bệnh nhân và qua các lần hiệu chỉnh.<br/>
+                  Kết quả thu được khi so sánh thiết ECGo và thiết bị Alivecor Mobile ECG theo BS Nguyễn Xuân Tuấn – Khoa Tim mạch can thiệp - Bệnh viện Tim Hà Nội nhận xét:<br/>
+                  • Nhìn chung hình thái song P, QRS và song T khá giống nhau giữa hai thiết bị.<br/>
+                  • Các khoảng PQ, QT, QRS, ST giống nhau.<br/>
+                  • Về độ ổn định: Sau vài giây đầu nhiễu, sau đó ổn định hơn.<br/>
+                  • Máy có thể dùng cho Bác sỹ để chẩn đoán nhanh một số rối loạn nhịp, khả thi trên lâm sàng. </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">3. Dữ liệu của tôi có an toàn không?</a> </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">Các dữ liệu ECG của bạn được thu thập bằng cách sử dụng ECGo ghi lại và được lưu trữ ở hai nơi: Trong ứng dụng ECGo App trên điện thoại/máy tính bảng của bạn và trên cloud đã được mã hóa bảo mật của ECGo nếu bạn đồng bộ bản ghi lên. Với các bản ghi chỉ có thể được truy cập bởi chính bạn và bác sỹ mà bạn chỉ định cho phép xem. Do đó bạn hoàn toàn an tâm về các bản ghi. Để tránh mất mát các bản ghi chúng tôi khuyến khích bạn nên đồng bộ tất cả các bản ghi lên cloud.</div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading4">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">4. ECGo hoạt động tốt trên các điện thoại và máy tính bảng?</a> </h4>
+              </div>
+              <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                <div class="panel-body"> Hiện tại, ECGo hoạt động tốt trên các điện thoại và máy tính bảng sử dụng hệ điều hành Android có phiên bản lớn hơn 2.3, có bộ nhớ lớn hơn 10MB và sử dụng công nghệ Bluetooth từ 2.0 trở lên.</div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading5">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">5. Tôi có thể tìm thông tin bảo hành, dịch vụ, lưu trữ và thông tin sử dụng ở đâu?</a> </h4>
+              </div>
+              <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                <div class="panel-body"> Thông tin về bảo hành, dịch vụ, lưu trữ và thông tin sử dụng về ECGo bạn có thể tìm thấy tại “Hướng dẫn sử dụng” hoặc thông tin tại website: <a href="#">www.ecgo.life</a></div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading6">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">6. Dữ liệu của tôi được tập hợp và lưu trữ ở đâu?</a> </h4>
+              </div>
+              <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+                <div class="panel-body"> Các bản ghi điện tâm đồ sẽ được lưu trữ tại hai nơi:<br/>
+                  • ECGo App trên điện thoại và máy tính bảng.<br/>
+                  • Trên server của ECGo đã được mã hóa và bảo mật.<br/>
+                  Các bản ghi có thể được truy cập từ website: <a href="#">www.ecgo.life</a> </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading7">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">7. Tôi có thể lưu trữ được bao nhiêu dữ liệu?1. ECGO đo cái gì?</a> </h4>
+              </div>
+              <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+                <div class="panel-body">Số lượng dữ liệu bạn có thể lưu trữ trong ứng dụng ECGo App chỉ bị giới hạn bởi dung lượng bộ nhớ trong điện thoại và máy tính bảng.<br/>
+                  <br/>
+                  Với một bản ghi điện tâm đồ 30 giây chiếm dung lượng trung bình khoảng: 32KB. Hiện tại không có giới hạn dung lượng lưu trữ an toàn trên server của ECGo. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="profile">
+          <div class="panel-group m-t-20" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading21">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse21" aria-expanded="true" aria-controls="collapse21">1. Tôi có thể tìm thấy hướng dẫn sử dụng ở đâu?</a> </h4>
+              </div>
+              <div id="collapse21" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading21">
+                <div class="panel-body">ECGo cung cấp cho bạn 03 bản hướng dẫn sử dụng:<br/>
+                  • Hướng dẫn bắt đầu: Được tặng kèm trong hộp với ECGo<br/>
+                  • Hướng dẫn sử dụng nhanh: Được tặng kèm trong hộp với ECGo<br/>
+                  • Hướng dẫn sử dụng: Bạn có thể xem tại website: <a href="#">www.ecgo.life</a><br/>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading22">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">2. Tôi có thể tìm bác sỹ và nhận thông tin tư vấn từ Bác sỹ như thế nào?</a> </h4>
+              </div>
+              <div id="collapse22" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading22">
+                <div class="panel-body">Trước hết bạn hãy đăng ký tài khoản với dịch vụ ECGo. Các bản ghi của bạn sẽ được đồng bộ trên cloud. Bạn có thể xem lại các bản ghi và chọn, chỉ định bác sỹ có thể kiểm tra và tư vấn cho bạn. Ngoài ra bạn có thế xuất các bản ghi dưới dạng pdf hoặc in ra để gửi qua email hoặc nhờ các bác sỹ tư vấn. </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading23">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse23" aria-expanded="false" aria-controls="collapse23">3. Tôi có thể sử dụng ECGo cho nhiều thành viên trong gia đình?</a> </h4>
+              </div>
+              <div id="collapse23" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading23">
+                <div class="panel-body">Có, Bạn hoàn toàn có thể sử dụng ECGo cho toàn bộ thành viên trong gia đình của bạn.<br/>
+                  Mỗi thành viên trong gia đình nên sử dụng 1 tài khoản riêng để truy cập. Việc này giúp cho việc quản lý và xem xét các ghi một cách chính xác giảm thiểu sự nhầm lẫn các bản ghi điện tâm đồ. </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading24">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse24" aria-expanded="false" aria-controls="collapse24">4. Bất cứ ai cũng có thể sử dụng ECGo</a> </h4>
+              </div>
+              <div id="collapse24" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading24">
+                <div class="panel-body">ECGo không chống chỉ định đối với bất cứ ai. Tuy nhiên, ECGo chưa được thử nghiệm lâm sàng trên trẻ em có trọng lượng dưới 10 Kg.</div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading25">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse25" aria-expanded="false" aria-controls="collapse25">5. Tôi phải sử dụng với điện thoại thông minh?</a> </h4>
+              </div>
+              <div id="collapse25" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading25">
+                <div class="panel-body"> Hiện tại ECGo được sử dụng kèm với điện thoại hoặc máy tính bảng sử dụng hệ điều hành Android và iOS.</div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading26">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse26" aria-expanded="false" aria-controls="collapse26">6. Nếu tôi không có dịch vụ 3G hay wifi tôi có đo được không?</a> </h4>
+              </div>
+              <div id="collapse26" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading26">
+                <div class="panel-body"> ECGo không đòi hỏi phải kết nối 3G hay wifi trong quá trình đo. Các bản ghi điện tâm đồ sẽ được lưu lại trong bộ nhớ của điện thoại.<br/>
+                  Tuy nhiên, nếu điện thoại hay máy tính bảng không kết nối 3G hay wifi, các bản ghi sẽ không được đồng bộ lên cloud của ECGo. Đồng thời bạn cũng không thể gửi Email hay gửi yêu cầu tới bác sỹ của bạn. </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading27">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse27" aria-expanded="false" aria-controls="collapse27">7. Tôi đã đặt máy tạo nhịp: Tôi vẫn có thể sử dụng ECGo?</a> </h4>
+              </div>
+              <div id="collapse27" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading27">
+                <div class="panel-body">ECGo cũng đã thử nghiệm lâm sàng trên một số bệnh nhân đặt máy tạo nhịp, các bản ghi vẫn ổn. Tuy nhiên, chúng tôi không khuyến khích sử dụng cho các bệnh nhân sửa dụng máy tạo nhịp. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="messages">
+          <div class="panel-group m-t-20" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading31">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse31" aria-expanded="true" aria-controls="collapse31">1. Làm thế nào để tải ứng dụng ECGo App?</a> </h4>
+              </div>
+              <div id="collapse31" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading31">
+                <div class="panel-body">Hiên tại ECGo chỉ sử dụng cho phiên bản Android và iOS. Do đó bạn có thể tải về cho điện thoại hay máy tính bảng thông qua Google Play và Appstore.<br/>
+                  Hoặc tại địa chỉ: <a href="#">www.ecgo.life</a> <br/>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading32">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse32" aria-expanded="false" aria-controls="collapse32">2. Làm thế nào để tôi thiết lập tài khoản trên ECGo App?</a> </h4>
+              </div>
+              <div id="collapse32" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading32">
+                <div class="panel-body">a) Chạm vào icon “ECGo” trên điện thoại thông minh hoặc máy tính bảng<br/>
+                  b) Đồng ý với các điều khoản dịch vụ thông báo đưa ra.<br/>
+                  c) Đăng ký tài khoản sử dụng bằng cách kích vào nút “Đăng ký”<br/>
+                  Điền Email và mật khẩu của tài khoản sử dụng. Lưu ý tài khoản này cũng chính là tài khoản được sử dụng trên website <a href="#">www.ecgo.life</a><br/>
+                  d) Chọn loại tài khoản là bác bỹ hoặc bệnh nhân. Với bệnh nhân bạn có thể sử dụng được ngay. Nếu là bác sỹ, chúng tôi sẽ liên hệ và nhanh chóng làm việc với bạn. </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading33">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse33" aria-expanded="false" aria-controls="collapse33">3. Làm thế nào để đo điện tâm đồ với ECGo?</a> </h4>
+              </div>
+              <div id="collapse33" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading33">
+                <div class="panel-body">Vui lòng tham khảo thêm trong “Hướng dẫn bắt đầu” và “Hướng dẫn sử dụng”.<br/>
+                  Bạn cần làm theo các bước sau đây:<br/>
+                  • Ngắt kết nối sạc với thiết bị ECGo.<br/>
+                  • Làm sạch hai điện cực bằng cồn khử trùng. Nếu có thể, rửa sạch các đầu ngón tay.<br/>
+                  • Bật công tắc thiết bị ECGo.<br/>
+                  • Trên thiết bị thông minh (smartphone/tablet) bật ứng dụng ECGo App.<br/>
+                  • Nếu có yêu cầu bật Bluetooth thì chọn Đồng ý/Yes.<br/>
+                  • Thiết bị sẽ tự động kết nối với smartphone qua bluetooth khi Bluetooth của thiết bị thông minh được bật. Với các kết nối lần đầu, quá trình tự động kết nối sẽ kéo dài hơn và người dùng phải nhập mã kết nối Bluetooth giữa hai thiết bị (mã PIN) là 1111 (mã PIN mặc định).<br/>
+                  • Kiểm tra dung lượng pin của ECGo. Dung lượng pin nên đạt trên 10% trước khi bắt đầu đo.<br/>
+                  Đối với đạo trình I (Lead I):<br/>
+                  • Đặt ngón cái hoặc/và các ngón khác lên các điện cực của thiết bị: tay phải đặt lên điện cực phải, tay trái đặt lên điện cực trái.
+                  Đối với đạo trình II (Lead II):<br/>
+                  • Đặt điện cực trái chạm vào chân trái tại vị trí cách mắt cá chân khoảng 5cm. Tay phải cầm thiết bị tại vị trí điện cực phải.
+                  Đối với đạo trình III (Lead III):<br/>
+                  • Đặt điện cực trái chạm vào chân trái tại vị trí cách mắt cá chân khoảng 5cm. Tay trái cầm thiết bị tại vị trí điện cực phải.
+                  Trong một số trường hợp, khi bản ghi của bệnh nhân không được rõ ràng do các đầu ngón tay bị bám bẩn hoặc chứa nhiều chất cách điện, bác sỹ có thể yêu cầu bệnh nhân đo lại bằng cách đặt thiết bị đo ECGo trước ngực. Cách đặt thiết bị cụ thể như sau: đặt các mặt điện cực chạm vào ngực trái, ngay bên dưới cơ ngực trái, trong đó, điện cực phải nằm gần ngực phải, điện cực trái nằm gần tay trái.<br/>
+                  <strong>Lưu ý:</strong> Bạn nên thư giãn cánh tay và bàn tay để giảm độ ồn cơ bắp. Trong quá trình ghi tránh di chuyển, nói chuyện hay rung cơ để có được bản ghi tốt nhất. </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading34">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse34" aria-expanded="false" aria-controls="collapse34">4. Làm thể nào tôi có thể xem lại các bản ghi đã được đo?</a> </h4>
+              </div>
+              <div id="collapse34" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading34">
+                <div class="panel-body">a) Bấm vào thẻ “Lịch sử đo ECG”<br/>
+                  b) Chạm vào bản ghi cần xem. </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading35">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse35" aria-expanded="false" aria-controls="collapse35">5. Làm thế nào để tôi truy cập vào tài khoản của tôi trên máy tính?</a> </h4>
+              </div>
+              <div id="collapse35" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading35">
+                <div class="panel-body"> a) Tới Website: <a href="#">www.ecgo.life</a><br/>
+                  b) Nhấp vào “ĐĂNG NHẬP” ở góc bên phải<br/>
+                  c) Nhập địa chỉ Email và mật khẩu mà bạn dùng để đăng nhập trên điện thoại hoặc máy tính bảng.
+                  không?<br/>
+                  .</div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading36">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse36" aria-expanded="false" aria-controls="collapse36">6. Chiều dài của một bản ghi điện tâm đồ là bao nhiêu?</a> </h4>
+              </div>
+              <div id="collapse36" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading36">
+                <div class="panel-body"> Các bản ghi ECG có thể được ghi lại trong 30 giây, 01 phút, 2 phút, 3 phút, 4 phút, hoặc 5 phút. Nó không có ý định để theo dõi lâu dài.<br/>
+                  Mặc định các bản ghi được ghi lại trong 3 giây. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="settings">
+          <div class="panel-group m-t-20" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading41">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse41" aria-expanded="true" aria-controls="collapse41">1. ECGo có thay thế điện tâm đồ 12 kênh?</a> </h4>
+              </div>
+              <div id="collapse41" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading41">
+                <div class="panel-body">ECGo không được thiết kế để thay thế cho một điện tâm đồ 12 kênh. </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading42">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse42" aria-expanded="false" aria-controls="collapse42">2. ECGo có thay thế bác sỹ không?</a> </h4>
+              </div>
+              <div id="collapse42" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading42">
+                <div class="panel-body">Không, ECGo được tạo ra nhằm chăm sóc sức khỏe tốt nhất cho bệnh nhân. Hỗ trợ bệnh nhân và bác sỹ trong quá trình tư vấn các bệnh về tim mạch. </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading43">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse43" aria-expanded="false" aria-controls="collapse43">3. Có bất kì chống chỉ định nào trong việc sử dụng ECGo</a> </h4>
+              </div>
+              <div id="collapse43" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading43">
+                <div class="panel-body">Không có chống chỉ định trong việc sử dụng ECGo, Mặc dù vậy khi sử dụng thiết bị nên đọc kỹ các hướng dẫn khi sử dụng và bảo quản thiết bị. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact">
+  <div class="wrapper sec-form-1 clearfix">
+    <div class="pad-l-fix" style="width:48%;float:left">
+      <div class="form-group">
+        <input type="text" aria-required="true" id="name" placeholder="Tên đầy đủ" name="senderName" class="form-control required">
+      </div>
+      <div class="form-group">
+        <input type="text" aria-required="true" id="email" placeholder="Email" name="senderName" class="form-control required">
+      </div>
+      <div class="form-group">
+        <input type="text" aria-required="true" id="phone" placeholder="Số điện thoại" name="senderName" class="form-control required">
+      </div>
+    </div>
+    <div class="pad-l-fix" style="width:48%;float:right">
+      <textarea aria-required="true" id="message" placeholder="Tin nhắn" rows="7" name="comment" class="form-control required" style="height:121px"></textarea>
+      <button type="submit" class="btn e-btn mgt" style="width:150px">Gửi</button>
+    </div>
+  </div>
+</section>
+<section id="sec-7">
+  <div class="wrapper clearfix">
+    <div class="row">
+      <div class="col-md-12" >
+        <div class="m-b-40 txt_c">
+          <h1 class="h-title" data-animation="fadeInUp" data-animation-delay="100"><span style="font-weight:normal">Chỉ từ</span> 990.000 VNĐ</h1>
+          <p><a href="#" data-target="#myModal" data-toggle="modal"  class="new-btn m-b-10" data-animation="bounceInLeft" data-animation-delay="100">Xem Video</a> <a href="#" data-target="#buy-succ" data-toggle="modal" class="new-btn m-b-10" data-animation="bounceInRight" data-animation-delay="100">Đặt hàng</a></p>
+        </div>
+      </div>
+    </div>
+    <ul class="row m-b-40 list-pro">
+      <li class="col-sm-3" data-animation="bounceInLeft" data-animation-delay="300"><img src="images/p-1.png" alt="ECGo" class="img-responsive"> </li>
+      <li class="col-sm-3" data-animation="bounceInLeft" data-animation-delay="100"><img src="images/p-2.png" alt="ECGo" class="img-responsive"> </li>
+      <li class="col-sm-3" data-animation="bounceInRight" data-animation-delay="100"><img src="images/p-3.png" alt="ECGo" class="img-responsive"> </li>
+      <li class="col-sm-3" data-animation="bounceInRight" data-animation-delay="300"><img src="images/p-4.png" alt="ECGo" class="img-responsive"> </li>
+    </ul>
+    <p class="footer" >Coppy right by An An Media & Technology JSC</p>
+  </div>
+</section>
+<!--Modal-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Câu chuyện gia đình Ông An, Bà Liên</h4>
+      </div>
+      <div class="modal-body ">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/2U4T6P3HaWw" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="buy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body clearfix">
+        
+        <div class="buy-left">
+          <p><img src="images/sp.png" alt="ECGo"></p>
+          <h2 class="choice">ECGo: <span>900.000</span> VNĐ</h2>
+          <div class="form-group">
+            <input type="text" aria-required="true" id="name" placeholder="Phí vận chuyển" name="senderName" class="form-control required">
+          </div>
+          <h3>Tổng số tiền thanh toán</h3>
+          <div class="form-group">
+            <input type="text" aria-required="true" id="name" placeholder="" name="senderName" class="form-control required">
+          </div>
+          <h3>Chọn màu</h3>
+          <ul class="choice-cl">
+          	<li><a href="#"></a></li>
+            <li><a href="#" class="active"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+        <div class="buy-right">
+          <h2>Thông tin người mua</h2>
+          <div class="form-group">
+            <input type="text" aria-required="true" id="name" placeholder="Họ Tên" name="senderName" class="form-control required">
+          </div>
+          <div class="form-group">
+            <input type="text" aria-required="true" id="name" placeholder="Email" name="senderName" class="form-control required">
+          </div>
+          <div class="form-group">
+            <input type="text" aria-required="true" id="name" placeholder="Số điện thoại" name="senderName" class="form-control required">
+          </div>
+          <h3>Địa chỉ nhận hàng</h3>
+          <div class="form-group clearfix">
+            <select class="form-control " style="width:48%;float:left;border:0 !important">
+              <option>Thành Phố</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+            </select>
+            <select class="form-control" style="width:48%;float:right;border:0 !important">
+              <option>Quận huyện</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input type="text" aria-required="true" id="name" placeholder="Nhập số nhà, tên đường để nhận hàng" name="senderName" class="form-control required">
+          </div>
+          <h3>Nhập mã khuyến mãi để được giảm giá</h3>
+          <div class="form-group">
+            <input type="text" aria-required="true" id="name" placeholder="Nhập mã khuyến mại" name="senderName" class="form-control required">
+          </div>
+          <div class="form-group">
+            <label>
+              <input type="radio" name="buy" value="buy1">
+              Thanh toán khi nhận hàng</label>
+            <br/>
+            <label>
+              <input type="radio" name="buy" value="buy2">
+              chuyển khoản</label>
+            <br/>
+            <label>
+              <input type="radio" name="buy" value="buy3">
+              Thanh toán trực tuyến</label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" >
+              Xuất hóa đơn</label>
+          </div>
+          <div class="form-group">
+            <input type="button" value="Đặt hàng" class="new-btn" style="margin-left:0">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="buy-succ" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body clearfix">
+        	<h2>BẠN ĐÃ ĐẶT HÀNG THÀNH CÔNG!</h2>
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+</body>
+</html>
