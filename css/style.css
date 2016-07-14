@@ -19,7 +19,11 @@ padding: 0;
 border: none;
 }
 .h-title{font-size:36px;line-height:42px;font-weight:bold;margin-bottom:30px}
+<<<<<<< HEAD
 .lead{font-size:14px;text-align:justify;line-height:24px;padding:0px 0px 30px 0;font-weight:normal}
+=======
+.lead{font-size:16px;text-align:justify;line-height:24px;padding:0px 0px 80px 0}
+>>>>>>> parent of c915343... add en
 .new-btn{display:inline-block;background:#21254d;text-transform:uppercase;padding:15px 0px;color:#fff;font-size:20px;margin:0 7px;width:200px;text-align:center;border:0}
 .new-btn:hover{background:#2c315f;color:#fff}
 
