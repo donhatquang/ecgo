@@ -102,3 +102,8 @@ background:none}
   .pad-l-fix{padding-left:15px !important}
   .pad-r-fix{padding-right:15px !important}
   }
+.social{margin-top:20px}
+.social a{display:inline-block;width:40px;height:40px;margin-right:10px}
+.social a:nth-child(1){background:url(../images/social.png) no-repeat left top}
+.social a:nth-child(2){background:url(../images/social.png) no-repeat left 40px}
+.social a:nth-child(3){background:url(../images/social.png) no-repeat left 80px}

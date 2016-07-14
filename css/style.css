@@ -1,4 +1,5 @@
-body{background:url(../Images/bg.jpg) repeat;font-size: 13px !important;color: #292929;font-family: "Open Sans", arial !important;min-width:1200px;}
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+body{background:url(../Images/bg.jpg) repeat;font-size: 14px !important;color: #292929;font-family: 'Roboto', sans-serif !important;min-width:1200px;}
 a{color:#292929;
 -moz-transition:all 0.4s ease;
 -webkit-transition:all 0.4s ease;
@@ -17,8 +18,8 @@ margin: 0;
 padding: 0;
 border: none;
 }
-.h-title{font-size:18px;line-height:42px;font-weight:bold;margin-bottom:30px}
-.lead{font-size:12px;text-align:justify;line-height:24px;padding:0px 0px 80px 0}
+.h-title{font-size:36px;line-height:42px;font-weight:bold;margin-bottom:30px}
+.lead{font-size:14px;text-align:justify;line-height:24px;padding:0px 0px 30px 0;font-weight:normal}
 .new-btn{display:inline-block;background:#21254d;text-transform:uppercase;padding:15px 0px;color:#fff;font-size:20px;margin:0 7px;width:200px;text-align:center;border:0}
 .new-btn:hover{background:#2c315f;color:#fff}
 
@@ -30,13 +31,13 @@ border: none;
 .logo h1 a{display:block;background:url(../images/logo-dark.png) no-repeat center center;width:180px;height:89px}
 #sec-head{background:#4d4d4d;border-bottom:1px solid #8a8888}
 #sec-0{background:url(../images/bg-0.jpg) no-repeat center center;padding:60px 0px;background-size:cover}
-#sec-1{background:#f5f6f6 url(../images/bg-1.png) no-repeat center bottom;padding:120px 0 250px;background-size:contain}
-#sec-2{background:url(../images/bg-2.jpg) no-repeat center center;padding:100px 0 275px;background-size:cover}
-#sec-3{background:url(../images/bg-3.jpg) no-repeat center center;background-size:cover;color:#fff;padding:120px 0 500px;}
-#sec-3 h1{line-height:42px}
-#sec-4{background:#5c5a5b url(../images/bg-4.jpg) no-repeat center center;padding:150px 0 800px;color:#fff}
+#sec-1{background:#f5f6f6 url(../images/bg-1.jpg) no-repeat center bottom;padding:120px 0 250px;background-size:cover}
+#sec-2{background:url(../images/bg-2.jpg) no-repeat center center;padding:120px 0 250px;background-size:cover}
+#sec-3{background:url(../images/bg-3.jpg) no-repeat center center;padding:80px 0 0px;background-size:cover;color:#fff;}
+#sec-3 h1{line-height:34px}
+#sec-4{background:#5c5a5b url(../images/bg-4.jpg) no-repeat center center;padding:120px 0 400px;color:#fff;background-size:cover}
 #sec-4 h1{line-height:42px;color:#fff}
-#sec-5{background:url(../images/bg-5.jpg) no-repeat center center;padding:100px 0 50px;background-size:cover;color:#fff}
+#sec-5{background:url(../images/bg-5.jpg) no-repeat center center;padding:80px 0 30px;background-size:cover;color:#fff}
 #sec-5 h1{line-height:42px;color:#fff}
 .sec-6{background:url(../images/bg-6.jpg) no-repeat center center;padding:150px 0px;background-size:cover;color:#fff}
 .sec-6 h1{line-height:42px;color:#fff}
@@ -46,7 +47,9 @@ border: none;
 #contact{background:#f3f3f3;padding:0 0 50px 0}
 #contact h2{color:#fff;text-transform:uppercase;font-size:18px;margin-bottom:10px}
 #contact p{color:#fff;font-size:14px}
-.footer{padding:15px 0 30px;text-align:center;color:#fff;font-size:14px}
+.footer{padding:15px 0 30px;text-align:center;color:#fff;font-size:14px;line-height:24px}
+.footer a{color:#fff}
+.footer a:hover{text-decoration:underline}
 .list-pro{margin-top:100px}
 .list-pro li{float:left;width:25%;display:inline;text-align:center}
 .list-pro li img{width:100%}
@@ -135,3 +138,8 @@ background:none}
   #sec-3{background:url(../images/bg-3.jpg) no-repeat center center;background-size:contain;color:#fff;padding:120px 0 375px;}
   #sec-4{background:#5c5a5b url(../images/bg-4.jpg) no-repeat right bottom;padding:50px 0 450px;color:#fff;background-size:contain}
   }
+.social{margin-top:20px}
+.social a{display:inline-block;width:40px;height:40px;margin-right:10px}
+.social a:nth-child(1){background:url(../images/social.png) no-repeat left top}
+.social a:nth-child(2){background:url(../images/social.png) no-repeat left -40px}
+.social a:nth-child(3){background:url(../images/social.png) no-repeat left -80px}
